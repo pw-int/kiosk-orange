@@ -1,8 +1,10 @@
-### Dimoco The Kiosk store Markup project ###
+### TheKiosk [PL Orange] Markup project for Dimoco ###
 
 Markup project created by figma design.
 
 Demo 3g link [url](https://pw-int.github.io/kiosk-orange/ "Demo 3g link")
+
+Demo otp link [url](https://pw-int.github.io/kiosk-orange/otp.html "Demo otp link")
 
 
 ## Project structure ##
