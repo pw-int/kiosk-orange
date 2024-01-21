@@ -2,6 +2,8 @@
 
 Markup project created by figma design.
 
+Figma link [url](https://www.figma.com/file/fPP8kqT2vGBnwqvHk3zlAI/Poland-Orange_Mind%2B?type=design&node-id=27-3036&mode=design&t=HAkLM2GL1cDgAEOK-0 "Figma link")
+
 Demo 3g link [url](https://pw-int.github.io/kiosk-orange/ "Demo 3g link")
 
 Demo otp link [url](https://pw-int.github.io/kiosk-orange/otp.html "Demo otp link")
