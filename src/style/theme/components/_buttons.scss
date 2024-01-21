@@ -1,0 +1,27 @@
+.btn {
+    --bs-btn-color: #{#1F211E};
+    --bs-btn-hover-color: #{#1F211E};
+    --bs-btn-active-color: #{#1F211E};
+    --bs-btn-border-radius: .625rem;
+}
+
+.btn-warning {
+    --bs-btn-hover-color: #{#1F211E};
+    background: $yellow!important;
+    border: none;
+    &:focus,
+    &:hover,
+    &:active {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 1px 1px 7px 3px rgba(255, 122, 0, 0.44), inset 0px 4.32166px 21.6083px rgba(0, 0, 0, 0.14);
+        background-color: $yellow;
+    }
+}
+
+.btn-link {
+    font-size: .75rem;
+    --bs-link-color: #{$yellow};
+    --bs-btn-hover-color: #{$yellow};
+    --bs-link-hover-color: #{$yellow};
+    --bs-link-color-rgb: #{$yellow};
+    --bs-btn-disabled-color: #{$yellow};
+}
