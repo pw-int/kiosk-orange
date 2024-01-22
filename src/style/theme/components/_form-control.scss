@@ -12,32 +12,6 @@
     }
 }
 
-.input-holder {
-    position: relative;
-    width: 100%;
-    &::before {
-        content: " ";
-        display: inline;
-        width: .1rem;
-        height: 1.625rem;
-        background-color: #D9D9D9;
-        border-radius: .188rem;
-        position: absolute;
-        top: .875rem;
-        left: 3rem;
-    }
-    &::after {
-        content: "+48";
-        display: block;
-        font-weight: 500;
-        font-size: 1rem;
-        color: $light-gray;
-        position: absolute;
-        top: .875rem;
-        left: .875rem;
-    }
-}
-
 .form-control.is-valid:focus,
 .was-validated .form-control:valid:focus {
     box-shadow: none;
@@ -49,21 +23,44 @@
     padding-right: 1rem;
 }
 
+.valid-icon {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: $yellow;
+    border-radius: .375rem;
+}
+
 .form-control.is-valid,
 .was-validated .form-control:valid {
-    border-color: transparent;
     background-image: none;
     padding-right: 1rem;
 }
 
+.form-control.valid-icon-input.is-valid,
+.was-validated .form-control:valid {
+    border-color: $yellow;
+    padding-right: 1rem;
+    &+.valid-icon {
+        display: block;
+        width: 48px;
+        z-index: 1000;
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE5LjYwMzcgNi42NjAwM0w5LjM0NzI1IDE3LjQwNDRMNC42ODUyMSAxMi41MjA2IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIuMzk3NjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
 .form-control.is-invalid:focus,
 .was-validated .form-control:invalid:focus {
-    border-color: transparent;
+    border-color: $yellow;
 }
 
 .form-control.is-valid:focus,
 .was-validated .form-control:valid:focus {
-    border-color: transparent;
+    border-color: $yellow;
 }
 
 .form-control.contact.is-invalid,

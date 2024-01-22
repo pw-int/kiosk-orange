@@ -16,9 +16,9 @@ $font-size-base: .75rem!default;
 $font-sizes: ( 1: 1rem, 2: .938rem, 3: .875rem, 4: .688rem);
 // buttons
 $btn-font-weight: bold!default;
-$btn-font-size: 1rem!default;
+$btn-font-size: 1.25rem!default;
 $btn-padding-x: 2rem!default;
-$btn-padding-y: .658rem!default;
+$btn-padding-y: .82rem!default;
 $btn-color: #1F211E!default;
 $btn-link-color: $yellow!default;
 // form-control
@@ -29,9 +29,10 @@ $input-color: $light-gray !default;
 $input-placeholder-color: $light-gray !default;
 $input-bg: $ghost-white !default;
 $input-border-color: $yellow !default;
-$input-border-radius: .188rem !default;
+$input-border-radius: .375rem !default;
+$input-border-width: 2px !default;
 $input-padding-y: .875rem !default;
-$input-padding-x: .75rem !default;
+$input-padding-x: 1rem !default;
 $input-group-addon-color: $white !default;
 $input-group-addon-border-color: transparent !default;
 $form-feedback-invalid-color: #fd5732 !default;
