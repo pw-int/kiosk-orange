@@ -23,6 +23,14 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-SemiBold.eot");
+  src: url("../fonts/Inter-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Inter-SemiBold.woff2") format("woff2"), url("../fonts/Inter-SemiBold.woff") format("woff"), url("../fonts/Inter-SemiBold.ttf") format("truetype"), url("../fonts/Inter-SemiBold.svg#Inter-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -101,7 +109,7 @@
   --bs-body-font-family: "Inter";
   --bs-body-font-size: 0.75rem;
   --bs-body-font-weight: 400;
-  --bs-body-line-height: 1.5;
+  --bs-body-line-height: 1;
   --bs-body-color: #212529;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg: #FFFFFF;
@@ -751,7 +759,7 @@ progress {
 .container-lg,
 .container-md,
 .container-sm {
-  --bs-gutter-x: 2rem;
+  --bs-gutter-x: 2.75rem;
   --bs-gutter-y: 0;
   width: 100%;
   padding-left: calc(var(--bs-gutter-x) * 0.5);
@@ -2334,7 +2342,7 @@ textarea.form-control-lg {
 
 .form-check {
   display: block;
-  min-height: 1.125rem;
+  min-height: 0.75rem;
   padding-right: 1.75em;
   margin-bottom: 0.125rem;
 }
@@ -2359,7 +2367,7 @@ textarea.form-control-lg {
   flex-shrink: 0;
   width: 1.25em;
   height: 1.25em;
-  margin-top: 0.125em;
+  margin-top: -0.125em;
   vertical-align: top;
   appearance: none;
   background-color: var(--bs-form-check-bg);
@@ -2906,10 +2914,10 @@ textarea.form-control-lg {
 
 .btn {
   --bs-btn-padding-x: 2rem;
-  --bs-btn-padding-y: 0.82rem;
+  --bs-btn-padding-y: 1rem;
   --bs-btn-font-family: ;
   --bs-btn-font-size: 1.25rem;
-  --bs-btn-font-weight: bold;
+  --bs-btn-font-weight: 500;
   --bs-btn-line-height: 1.5;
   --bs-btn-color: #1F211E;
   --bs-btn-bg: transparent;
@@ -3884,7 +3892,7 @@ textarea.form-control-lg {
   --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
   --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
   --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
-  --bs-navbar-brand-padding-y: 0.359375rem;
+  --bs-navbar-brand-padding-y: 0.40625rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 0.9375rem;
   --bs-navbar-brand-color: rgba(var(--bs-emphasis-color-rgb), 1);
@@ -5331,7 +5339,7 @@ textarea.form-control-lg {
   --bs-toast-zindex: 1090;
   --bs-toast-padding-x: 0.75rem;
   --bs-toast-padding-y: 0.5rem;
-  --bs-toast-spacing: 2rem;
+  --bs-toast-spacing: 2.75rem;
   --bs-toast-max-width: 350px;
   --bs-toast-font-size: 0.875rem;
   --bs-toast-color: ;
@@ -5411,7 +5419,7 @@ textarea.form-control-lg {
   --bs-modal-header-padding: 1rem 1rem;
   --bs-modal-header-border-color: var(--bs-border-color);
   --bs-modal-header-border-width: var(--bs-border-width);
-  --bs-modal-title-line-height: 1.5;
+  --bs-modal-title-line-height: 1;
   --bs-modal-footer-gap: 0.5rem;
   --bs-modal-footer-bg: ;
   --bs-modal-footer-border-color: var(--bs-border-color);
@@ -5705,7 +5713,7 @@ textarea.form-control-lg {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1;
   text-align: right;
   text-align: start;
   text-decoration: none;
@@ -5807,7 +5815,7 @@ textarea.form-control-lg {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1;
   text-align: right;
   text-align: start;
   text-decoration: none;
@@ -6208,7 +6216,7 @@ textarea.form-control-lg {
   --bs-offcanvas-border-color: var(--bs-border-color-translucent);
   --bs-offcanvas-box-shadow: var(--bs-box-shadow-sm);
   --bs-offcanvas-transition: transform 0.3s ease-in-out;
-  --bs-offcanvas-title-line-height: 1.5;
+  --bs-offcanvas-title-line-height: 1;
 }
 
 @media (max-width: 575.98px) {
@@ -8297,7 +8305,7 @@ textarea.form-control-lg {
 }
 
 .lh-base {
-  line-height: 1.5 !important;
+  line-height: 1 !important;
 }
 
 .lh-lg {
@@ -11967,7 +11975,7 @@ textarea.form-control-lg {
 
 .form-check-input:checked[type=checkbox] {
   --bs-form-check-bg-image: none;
-  background-image: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8" standalone="no"%3F><svg width="10" height="8" viewBox="0 0 10 8" fill="none" version="1.1" id="svg66" sodipodi:docname="checkbox.svg" inkscape:version="1.1 (c4e8f9e, 2021-05-24)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs70" /><sodipodi:namedview id="namedview68" pagecolor="%23ffffff" bordercolor="%23666666" borderopacity="1.0" inkscape:pageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" showgrid="false" inkscape:zoom="32.463863" inkscape:cx="4.0198544" inkscape:cy="4.4819066" inkscape:window-width="1312" inkscape:window-height="795" inkscape:window-x="0" inkscape:window-y="25" inkscape:window-maximized="0" inkscape:current-layer="svg66" /><path style="color:%23000000;fill:%2300b262;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none" d="m 9.1191406,0.92382813 a 0.76451498,0.76451498 0 0 0 -1.078125,0.0703125 L 3.8769531,5.7382812 2.2695313,4.1640625 A 0.76451498,0.76451498 0 0 0 1.1875,4.1738281 0.76451498,0.76451498 0 0 0 1.1992187,5.2558594 l 2.1835938,2.140625 A 0.76459143,0.76459143 0 0 0 4.4941406,7.3535156 L 9.1894531,2.0019531 A 0.76451498,0.76451498 0 0 0 9.1191406,0.92382813 Z" id="path64" /></svg>');
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDEwIDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xLjczNDM4IDQuNzA5MjZMMy45MTg3MSA2Ljg0OTlMOC42MTUwMiAxLjQ5ODI5IiBzdHJva2U9IiNGRjdBMDAiIHN0cm9rZS13aWR0aD0iMS41MjkwMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=");
   background-size: 0.5rem;
 }
 
@@ -12007,7 +12015,6 @@ textarea {
 
 p {
   margin-bottom: 0;
-  line-height: 1.25;
 }
 
 .main {
@@ -12082,7 +12089,7 @@ p {
   bottom: -1.5rem;
   left: 0;
   right: 0;
-  margin: 0 1rem;
+  margin: 0 1.5rem;
 }
 .main .icon-style {
   background-color: #FFFFFF;
