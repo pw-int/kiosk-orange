@@ -12067,9 +12067,10 @@ p {
 }
 .main .banner .banner-circle {
   background-image: url("../img/banner-circle.svg");
+  background-size: contain;
   background-repeat: no-repeat;
-  width: 100px;
-  height: 100px;
+  width: 124px;
+  height: 124px;
   position: absolute;
   top: 0;
   left: 0;
@@ -12080,9 +12081,10 @@ p {
 }
 .main .banner .banner-circle .banner-value {
   font-weight: bold;
-  font-size: 0.625rem;
+  font-size: 0.688rem;
+  line-height: 0.813rem;
   color: #303030;
-  padding-top: 1rem;
+  padding-top: 1.2rem;
 }
 .main .banner .banner-shadow .banner-text {
   position: absolute;
