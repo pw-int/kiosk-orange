@@ -39,9 +39,10 @@
         }
         .banner-circle {
             background-image: url("../img/banner-circle.svg");
+            background-size: contain;
             background-repeat: no-repeat;
-            width: 100px;
-            height: 100px;
+            width: 124px;
+            height: 124px;
             position: absolute;
             top: 0;
             right: 0;
@@ -51,9 +52,10 @@
             text-align: center;
             .banner-value {
                 font-weight: bold;
-                font-size: .625rem;
+                font-size: .688rem;
+                line-height: .813rem;
                 color: $black;
-                padding-top: 1rem;
+                padding-top: 1.2rem;
             }
         }
         .banner-shadow {
