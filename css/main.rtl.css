@@ -12013,6 +12013,10 @@ textarea {
   resize: none;
 }
 
+.mh-200 {
+  min-height: 12.5rem;
+}
+
 p {
   margin-bottom: 0;
 }
